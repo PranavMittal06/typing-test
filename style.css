@@ -105,7 +105,7 @@ nav .nav-content .features a:hover{
     grid-template-columns: 1.5% 98% 1.5% ;
 }
 
-.small-00, .small-01,.large-00 {
+.small-00, .small-01,.large-00, .small-02,.small-03,.large-01,.large-02{
         border-left: 1px solid var(--border-color);
         border-right: 1px solid var(--border-color);
 }
@@ -238,7 +238,30 @@ nav .nav-content .features a:hover{
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
 }
+.small-row-1{
+    width: 70%;
+    height: 100%; 
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1.5% 31.85% 1.5% 31.3% 1.5% 31.85% 1.5%;
+}
 
+.large-00,.large-01,.large-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-headline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.min15,.min30,.min60,.min90{
+    display: inline-block;
+    
+
+}
 
 
 
