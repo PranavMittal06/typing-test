@@ -253,15 +253,17 @@ nav .nav-content .features a:hover{
 }
 
 .test-headline{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.min15,.min30,.min60,.min90{
-    display: inline-block;
     
-
+   width: 70%;
+    justify-content: center;
+    margin-bottom: 250px;
+    
 }
+.min15,.min30,.min60,.min90,.min120{
+    display: inline;
+    padding-left: 90px;
+}
+
 
 
 
